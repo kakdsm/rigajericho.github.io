@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #ffffff, #a43131ab)
+}
+nav{   
+    width: 100%;
+    position: sticky;
+    margin: 10px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
